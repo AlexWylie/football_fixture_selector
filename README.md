@@ -1,6 +1,6 @@
 # football_fixture_selector
 
-##Explanation
+## Explanation
 
 The Football Fixture Selector is an R script that scrapes data off FiveThirtyEight's Club Soccer predictions: https://projects.fivethirtyeight.com/soccer-predictions/?ex_cid=rrpromo
 
@@ -14,7 +14,7 @@ Each variable is normalised to fit a range from 0 to 1.
 
 The script then produces a responsive datatable using the DT package, which is initally ordered by the Enjoyment variable to find fixtures that should be high in Quality and Competitiveness.
 
-##Required Packages
+## Required Packages
 
 * plyr
 * tidyverse
